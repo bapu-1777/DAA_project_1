@@ -10,7 +10,8 @@ def insertionsort(arr):
 
 
 import random
-
+import time
+random.seed(3)
 numbers_files = [20, 100, 1000, 4000]
 
 for n in numbers_files:
@@ -24,10 +25,18 @@ for n in numbers_files:
             data.append(last_e)
             file1.write(f"{randomlist[0]} {randomlist[1]} {randomlist[2]}\t{last_e}\n")
 
+
+
     with open(f"Output_files_Insertion_sort/arrIS_O_{n}.txt", "w") as file:
-        for i in insertionsort(data):
+        start_time = time.time()
+        data = insertionsort(data)
+        end_time = time.time()
+        total_time = end_time - start_time
+        print(f"time taken for {n} size arr using insertion sort(in seconds) = {total_time}")
+        for i in data:
             p = d_data[i]
             file.write(f"{p[0]} {p[1]} {p[2]}\t{i}\n")
+
 
 
 
