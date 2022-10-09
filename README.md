@@ -37,6 +37,7 @@ To deploy this project or To run this project
 
 files and folders structure
 
+````bash
 .
 ├── Merge_sort_output
 │   ├── Output_file20.txt
