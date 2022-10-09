@@ -33,6 +33,71 @@ To deploy this project or To run this project
 3. at last, run all three ".py" files.
 ```
 
+## project structure
+
+files and folders structure
+
+
+````bash
+$ tree
+.
+├── Merge_sort_output
+│   ├── Output_file20.txt
+│   ├── Output_file100.txt
+|   ├── Output_file1000.txt
+|   └── Output_file4000.txt
+|
+├── Insertion_sort_output
+│   ├── Output_file20.txt
+│   ├── Output_file100.txt
+|   ├── Output_file1000.txt
+|   └── Output_file4000.txt
+|
+├── quick_sort_output
+│   ├── Output_file20.txt
+│   ├── Output_file100.txt
+|   ├── Output_file1000.txt
+|   └── Output_file4000.txt
+|
+├── arr20.txt
+├── arr100.txt
+├── arr1000.txt
+├── arr4000.txt
+├── insertionsort.py
+├── mergesort.py
+├── quicksort.py
+````bash
+$ tree
+.
+├── Merge_sort_output
+│   ├── Output_file20.txt
+│   ├── Output_file100.txt
+|   ├── Output_file1000.txt
+|   └── Output_file4000.txt
+|
+├── Insertion_sort_output
+│   ├── Output_file20.txt
+│   ├── Output_file100.txt
+|   ├── Output_file1000.txt
+|   └── Output_file4000.txt
+|
+├── quick_sort_output
+│   ├── Output_file20.txt
+│   ├── Output_file100.txt
+|   ├── Output_file1000.txt
+|   └── Output_file4000.txt
+|
+├── arr20.txt
+├── arr100.txt
+├── arr1000.txt
+├── arr4000.txt
+├── insertionsort.py
+├── mergesort.py
+├── quicksort.py
+├── project_report.pdf
+└── README.md
+
+````
 
 ## Reference For Development
 
